@@ -6,8 +6,27 @@
     position:relative;
 }
 ul
-{
-list-style-type: none;
+{  
+  list-style-type: none;
+}
+.container {
+    position: absolute;
+    margin: auto
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+.vid {
+    width: 232px; /* you have to have a size or this method doesn't work */
+    height: 100px;
+    
+    position: absolute; /* positions according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
+    
+}
 }
 img {
   display: inline-block;
