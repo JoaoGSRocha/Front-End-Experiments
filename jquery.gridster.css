@@ -71,7 +71,6 @@ li.banner
 li.fav
 {
 	background:url(TheySeeMeRolling.jpg) no-repeat center center;
-
 	/*display: inline-block;
 	vertical-align: middle;
 	line-height: normal;    
@@ -84,6 +83,13 @@ li {
 	line-height: normal;    
 	background-color: #ff00ff;
 	font-size: 40px;
+}
+iframe {
+	 display: inline-block;
+	vertical-align: middle;
+	line-height: normal;    
+}
+
 }
 
 .gridster > * {
