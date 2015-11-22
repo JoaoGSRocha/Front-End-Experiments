@@ -9,7 +9,60 @@ ul
 {
 list-style-type: none;
 }
+img {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;    
+}
+
+li.fact01
+{
+	background:url(FCQNQSMNVC_chatReplyMeme.jpg) no-repeat center center;
+}
+
+li.fact02
+{
+	background:url(FCQNQSMNVC_profile.jpg) no-repeat center center;
+}
+
+li.fact03
+{
+	background:url(FCQNQSMNVC_senpaiReplyMeme.jpg) no-repeat center center;
+}
+
+li.fact04
+{
+	background:url(Sand_Campsite.jpg) no-repeat center center;
+}
+
+li.fact05
+{
+	background:url(61604109.jpg) no-repeat center center;
+}
+
+li.thug
+{
+	background:url(thuglife.jpg) no-repeat center center;
+}
+
+li.banner
+{
+	background:url(FCQNQSMNVC_banner.jpg) no-repeat center center;
+}
+li.fav
+{
+	background:url(TheySeeMeRolling.jpg) no-repeat center center;
+
+	/*display: inline-block;
+	vertical-align: middle;
+	line-height: normal;    
+	background-color: #ff00ff;
+	font-size: 40px;*/
+}
 li {
+	 display: inline-block;
+	vertical-align: middle;
+	line-height: normal;    
 	background-color: #ff00ff;
 	font-size: 40px;
 }
