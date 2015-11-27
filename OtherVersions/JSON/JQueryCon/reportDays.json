@@ -1,0 +1,47 @@
+{
+	"report_days": [
+		{
+			"Day": 1,
+			"Date": "27/10/2015",
+			"HourStarted" : "02:19",
+			"Description" : [
+								"Browsed through presentation/cover letter examples and tips, eventually finding help", 
+								"on professional skills, to cope with  unemployment, and related issues.", 
+								"Also signed myself for a virual free no real money share market."
+							],
+			"References" : [
+								"Share Website" : { http://www.bullbearings.co.uk/help.php"}
+								"CV Related" : 
+									[ 
+										"http://www.kent.ac.uk/careers/sk/decisionmaking.htm", 
+										"http://www.kent.ac.uk/careers/sk/skillsdevelop.htm", 
+										"http://www.kent.ac.uk/careers/sk/skillsmenu.htm",
+										"http://www.kent.ac.uk/careers/cv/electronicsCV.htm",
+										"http://www.kent.ac.uk/careers/cv/actionverbs.htm",
+										"http://www.kent.ac.uk/careers/cv/coveringletters.htm",
+										"http://howtowritealetter.net/letter-of-presentation.html",
+										"http://www.theguardian.com/careers/covering-letter-examples",
+										"http://www.rambit.qc.ca/ecv/examples-of-Letter-of-presentation/sample-letter-of-presentation-computer-graphics.htm",
+										"http://www.rambit.qc.ca/ecv/example-of-a-student-presentation-letter.html",
+										"http://www.rambit.qc.ca/ecv/examples-of-letter-of-presentation.htm",
+										"https://owl.english.purdue.edu/owl/resource/698/01/",
+										"http://www.prospects.ac.uk/cover_letters.htm"
+										"http://www.onetip.net/how-to-write-a-presentation-letter-free-samples/"
+									]
+							],
+			"HoursOfWork" : 0,
+			"Keywords" : [
+							"Not applied", 
+							"Not applied"
+						]		
+		}
+		
+		{
+			"Day" : 2,
+			"Date" : "26/11/2015",
+			"HourStarted" : "15:00",
+			"Description" : ["This is what I did...", "And this too..", "..plus that.."],
+			"References" : ["www.pagilandia.comxa.com", "www.facebook.com", "www.unidev.com.br", "www.unity.com"]
+		}
+	]
+}
