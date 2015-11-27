@@ -9,10 +9,11 @@
 
    var people = [];
 
-   $.getJSON('people03.json', function(data) {
-       $.each(data.report, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.day + "</td>" +
-           "<td>" + f.date + "</td>" + "<td>" + f.description + "</td>" + "<td>" + f.references + "</td>" + "</tr>"
+   $.getJSON('jobsJson.json', function(data) {
+       $.each(data.jobs, function(i, f) {
+          var tblRow = "<tr>" + "<td>" + f.id + "</td>" +
+           "<td>" + f.title + "</td>" + "<td>" + f.description + "</td>" + 
+		   "<td>" + f.tags + "</td>" + "<td>" + f.tech + "</td>" + "</tr>"
            $(tblRow).appendTo("#userdata tbody");
 		});
 
@@ -28,10 +29,11 @@
 <div class="profile">
    <table id= "userdata" border="2">
   <thead>
-            <th>Day</th>
-            <th>Date</th>
+            <th>ID</th>
+            <th>Title</th>
             <th>Description</th>
-            <th>References</th>
+            <th>Tags</th>
+			<th>Technology</th>
         </thead>
       <tbody>
 
