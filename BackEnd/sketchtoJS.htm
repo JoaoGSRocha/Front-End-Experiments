@@ -1,0 +1,53 @@
+<h1>Processing.js keyboard input test</h1>
+
+<p>Type some letters and they should show up below.</p>
+
+<script type="text/processing">
+    PFont font;
+    String lastTyped;
+    
+    interface JavaScript {
+      void startGettingUserInput();
+    }
+     
+    void bindJavascript(JavaScript js) {
+      javascript = js;
+      lastTyped = "we have javascript!";
+      redraw();
+    }
+    
+    JavaScript javascript;
+    
+    void setup() {
+      size(400, 400);
+      background(0); 
+      smooth();
+      noStroke();
+      font = createFont("Arial", 36);
+      textFont(font);
+      textAlign(CENTER);
+      lastTyped = "no javascript."; 
+    }
+    
+    void draw() {
+      background(0);
+      text(lastTyped, width/2, height/2);
+    }
+    
+    void startGettingUserInput() {
+      if(javascript != null) {
+        javascript.getUserInput();
+      }
+    }
+        
+    void userTypedLetterJS(String letter) {
+        lastTyped = letter + " (from javascript)";
+        redraw();
+    }
+    
+    void mouseClicked() {
+      startGettingUserInput();
+    }
+</script>
+
+<canvas id="sketch"></canvas>
