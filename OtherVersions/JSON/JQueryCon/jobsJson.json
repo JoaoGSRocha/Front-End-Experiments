@@ -5,7 +5,8 @@
 			"title": "Default",
 			"description": "Default",
 			"tags": ["java","sql","uml","xml"],
-			"tech": ["java","sql","uml","xml"]
+			"tech": ["java","sql","uml","xml"],
+			"email_ref": "guru.com/..."
 		},
 		{
 			"id":"02",
@@ -20,6 +21,17 @@
 			"description": "Default",
 			"tags": ["java","sql","uml","xml"],
 			"tech": ["java","sql","uml","xml"]
+		}
+		
+		{
+			"id":"03",
+			"title": "Default",
+			"description": "Default",
+			"tags": ["java","sql","uml","xml"],
+			"tech": ["java","sql","uml","xml"],
+			"group_type": "Instant JobMatch",
+			"website": "cw.jobs.co.uk"
+			"email_ref": "CWJobs.co.uk"
 		}
 	]
 }
