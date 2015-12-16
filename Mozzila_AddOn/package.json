@@ -1,0 +1,16 @@
+{
+  "title": "HelpOn",
+  "name": "mozzilaaddon",
+  "version": "0.0.1",
+  "description": "Parse Info from selected text",
+  "main": "index.js",
+  "author": "Joao Rocha",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}

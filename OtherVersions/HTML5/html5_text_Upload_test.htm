@@ -17,6 +17,7 @@
 </span>
 <div id="byte_range"></div>
 <div id="byte_content"></div>
+<div id="allText"></div>
 
 <script>
   function readBlob(opt_startByte, opt_stopByte) {
@@ -32,7 +33,7 @@
     var stop = parseInt(opt_stopByte) || file.size - 1;
 
     var reader = new FileReader();
-
+		var allTheText = " ";
     // If we use onloadend, we need to check the readyState.
     reader.onloadend = function(evt) {
       if (evt.target.readyState == FileReader.DONE) { // DONE == 2
@@ -40,6 +41,12 @@
         document.getElementById('byte_range').textContent = 
             ['Read bytes: ', start + 1, ' - ', stop + 1,
              ' of ', file.size, ' byte file'].join('');
+				allTheText = evt.target.result;
+				document.getElementById('allText').textContent = allTheText;
+				    var selObj = window.getSelection(); 
+    alert(selObj);
+    var selRange = selObj.getRangeAt(0);
+    // do stuff with the range
       }
     };
 
@@ -54,4 +61,6 @@
       readBlob(startByte, endByte);
     }
   }, false);
+	
+
 </script>
