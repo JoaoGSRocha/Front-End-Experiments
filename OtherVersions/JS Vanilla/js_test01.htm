@@ -2,14 +2,25 @@
 <head>
 	<title>JS Test</title>
 	<script type="text/javascript">
+		var xs = "XX";
+		var spaces = "&nbsp;";
+		var lines = "___";
+		var times = 0;
+		var positionX = 0;
 		function sayHello(){
 			document.write("Hello there!");
 		}
 		function CycleThrough(obj01, obj02, max){
 			for(i=0; i < max; i++){
-				document.write("Current Count: " + i );
+				if(i>0 && i<4)
+					document.write(xs +spaces+ lines  + spaces+xs  );
+				else
+					document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp" + "XX&nbsp;&nbsp;&nbsp;" );
 				document.write("<br />");
 			}
+		}
+		function RepeatPath(tim, pos){
+			
 		}
 	</script>
 </head>
