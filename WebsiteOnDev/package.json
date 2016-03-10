@@ -1,0 +1,27 @@
+{
+  "name": "to-top",
+  "version": "1.0.0",
+  "description": "A simple jQuery plugin to send you to the top of the page",
+  "main": "toTop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "jQuery",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TiaanDuPlessis/to-top.git"
+  },
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"
+  }
+}
