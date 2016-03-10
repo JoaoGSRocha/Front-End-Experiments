@@ -20,6 +20,8 @@
 	<link rel="shortcut icon" href="../favicon.ico"> 
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/container2.css" />
+
 
 	<!-- The original imports -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,11 +29,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <style>
-  .jumbotron {
-	background-color: #aaa; /* Orange */
-	color: #ffffff;
-    padding: 100px 25px;
-  }
   .bg-grey {
 	background-color: #f6f6f6;
   }
@@ -83,15 +80,16 @@
   </style>
 </head>
 <body>
+	<div class="container-fluid text-center">
+
    <!-- Services container -->
-    <div class="container text-center">
+    <div class="container2" text-center>
 			<header>
 				<h1>We are <span>AOGA</span></h1>
-				<h1>And this is what we got to offer:</h1>
+				<h1>And this is what we got to offer:
 			</header>
-		</div>
-	<div class="container-fluid text-center">
-			<div class="row">
+		</div>			
+<div class="row">
 			  <div class="col-sm-4">
 					<a href="#curated">
 					<span class="	glyphicon glyphicon-heart-empty logo-small btn"></span>
@@ -137,20 +135,16 @@
 			  </div>
 	  </div>
 	</div>
-<div class="container4">
-<ul>
-<li>
-</div>
 
 	<!-- Curated Contet -->
-      <div class="container text-center">
+      <div class="container container2 text-center">
 			<header id="curated" >
 				<h1>AOGA <span>Trusted Curated Content</span></h1>
 				<h2>All the content our Otakus & Gamers curated with all their love</h2>
 			</header>
 			<section >
 				<ul class="lb-album">
-					<li >
+					<li class="hide">
 						<a href="#image-2">
 							<img src="" alt="">
 						</a>
